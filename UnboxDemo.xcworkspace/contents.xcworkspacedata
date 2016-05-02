@@ -5,9 +5,9 @@
       location = "container:UnboxDemo.playground">
    </FileRef>
    <FileRef
-      location = "group:~/Code/Unbox/Unbox.xcodeproj">
+      location = "group:Unbox/Unbox.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:~/Code/Wrap/Wrap.xcodeproj">
+      location = "group:Wrap/Wrap.xcodeproj">
    </FileRef>
 </Workspace>
