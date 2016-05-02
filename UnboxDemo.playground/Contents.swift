@@ -37,7 +37,7 @@ struct User: Unboxable {
 
 // Load JSON data
 let bundle = NSBundle.mainBundle()
-let path = bundle.pathForResource("B", ofType: ".json")!
+let path = bundle.pathForResource("C", ofType: ".json")!
 let data = NSData(contentsOfFile: path)!
 
 // Perform unboxing
@@ -45,8 +45,9 @@ do {
     let user: User = try Unbox(data)
     print(user)
     
-    let userData: NSData = try Wrap(user)
-    let user2: User = try Unbox(userData)
+    let wrapData: NSData = try Wrap(user)
+    let user2: User = try Unbox(wrapData)
+    print(user2)
 } catch {
     print(error)
 }
