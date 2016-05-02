@@ -6,7 +6,7 @@ You can use this Playground to try out the Unbox & Wrap APIs without having to a
 ## Installing
 
 - Clone the repo.
-- Run `$ git submodule update —init` to get Unbox & Wrap.
+- Run `$ git submodule update --init` to get Unbox & Wrap.
 - Open `UnboxDemo.xcworkspace` that contains both the Playground + Unbox & Wrap.
 
 ## Need help?
