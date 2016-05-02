@@ -1,0 +1,6 @@
+[submodule "Unbox"]
+	path = Unbox
+	url = git@github.com:JohnSundell/Unbox.git
+[submodule "Wrap"]
+	path = Wrap
+	url = git@github.com:JohnSundell/Wrap.git

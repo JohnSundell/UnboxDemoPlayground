@@ -1,0 +1,15 @@
+{
+    "name": "John",
+    "age": 28,
+    "profession": "Developer",
+    "devices": [
+        {
+            "name": "Macbook Pro",
+            "inchSize": 15
+        },
+        {
+            "name": "iPhone 6",
+            "inchSize": 4.7
+        }
+    ]
+}
